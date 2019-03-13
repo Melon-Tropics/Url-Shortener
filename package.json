@@ -1,0 +1,27 @@
+{
+  "name": "url-shorterner",
+  "version": "1.0.0",
+  "description": "url shorterner",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/glacial-brook-91969.git"
+  },
+  "author": "Loc Mai",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "sqlite3": "^4.0.6",
+    "url-exists": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
